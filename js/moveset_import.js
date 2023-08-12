@@ -400,7 +400,8 @@ var customTiers;
 $("#importTier").click(function(){
 	//Save info on the tier
 	var tier={
-		tierName:$("#tierName").prop("value"),
+		//tierName:$("#tierName").prop("value"),
+		tierName:"redux",
 		level:$("#tierLevel").prop("value"),
 		doubles:$("#isDoubles").prop("checked")
 	};
